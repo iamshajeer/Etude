@@ -1,0 +1,14 @@
+       <%@page import="com.itextpdf.text.Document"%>
+<%@page import="com.itextpdf.text.Paragraph"%>
+<%@page import="com.itextpdf.text.pdf.PdfWriter"%>
+<%
+   response.setContentType("application/pdf");
+   Document document = new Document();
+   PdfWriter.getInstance(document, response.getOutputStream());
+   document.open();
+   document.addTitle("Document Title");
+   
+   document.add(new Paragraph("muhammad rayees"));
+
+   document.close();
+%>

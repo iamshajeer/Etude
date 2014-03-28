@@ -1,0 +1,12 @@
+ <script src="http://code.jquery.com/jquery-latest.js">   
+        </script>
+        <script>
+            $(document).ready(function() {                        
+                $('#submit').click(function(event) {  
+                    var username=$('#user').val();
+                 $.get('ActionServlet',{user:username},function(responseText) { 
+                        $('#welcometext').text(responseText);         
+                    });
+                });
+            });
+        </script>

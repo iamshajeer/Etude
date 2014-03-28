@@ -1,0 +1,64 @@
+/* 
+    Document   : styleforfinetable
+    Created on : May 22, 2013, 11:10:42 AM
+    Author     : Shajeer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.submit{		
+    width:122px;
+    border:none;
+    background-color:#030;
+    height:30px;
+    cursor:pointer;
+    color:#fff
+}
+
+.submit:hover{
+    background-color:#095500;
+
+}
+#inboxtab{
+    margin-top: 40px;
+    border-color: #94af02;
+    widht:500px;
+    width: 100%;  
+    font-family: Georgia, "Times New Roman", Times, serif;    
+}
+#inboxtab th{
+    background-color:#030   ; 
+    color:#fff ;
+    text-shadow: 2px 5px 15px #000;
+}
+#col1{
+    background-color: wheat;
+}
+#col2{
+    background-color: #fff;
+}
+#submit{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#borderless td{
+    border:0px;
+border-color: #fff; 
+}
+#totaltab{
+     margin-top: 0px;
+    border-color: #030;
+    widht:500px;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;    
+
+}
+#totaltab th{
+    background-color:#030   ; 
+    color:#fff ;
+    height: 30px;
+    text-shadow: 2px 5px 15px #000;     
+}

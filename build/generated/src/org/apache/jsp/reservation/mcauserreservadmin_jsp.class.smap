@@ -1,0 +1,18 @@
+SMAP
+mcauserreservadmin_jsp.java
+JSP
+*S JSP
+*F
++ 0 mcauserreservadmin.jsp
+reservation/mcauserreservadmin.jsp
+*L
+5,39:51
+43,14:90
+56,2:104
+58:106,3
+59,2:109
+60,2:111
+61:113
+62,15:115
+76,8:130
+*E

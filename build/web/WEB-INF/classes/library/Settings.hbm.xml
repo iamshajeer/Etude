@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 3, 2013 11:41:33 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="library.Settings" table="settings" catalog="library">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="rendays" type="java.lang.Integer">
+            <column name="rendays" />
+        </property>
+        <property name="nobooks" type="java.lang.Integer">
+            <column name="nobooks" />
+        </property>
+        <property name="deptid" type="string">
+            <column name="deptid" length="15" />
+        </property>
+        <property name="fineamount" type="big_decimal">
+            <column name="fineamount" precision="3" />
+        </property>
+        <property name="reservcount" type="java.lang.Integer">
+            <column name="reservcount" />
+        </property>
+    </class>
+</hibernate-mapping>

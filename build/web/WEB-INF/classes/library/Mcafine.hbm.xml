@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 3, 2013 11:41:33 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="library.Mcafine" table="mcafine" catalog="library">
+        <id name="fid" type="java.lang.Long">
+            <column name="fid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="mcaissue" class="library.Mcaissue" fetch="select">
+            <column name="transid" />
+        </many-to-one>
+        <property name="uid" type="string">
+            <column name="uid" length="15" />
+        </property>
+        <property name="fineamt" type="big_decimal">
+            <column name="fineamt" precision="4" />
+        </property>
+        <property name="days" type="java.lang.Integer">
+            <column name="days" />
+        </property>
+    </class>
+</hibernate-mapping>

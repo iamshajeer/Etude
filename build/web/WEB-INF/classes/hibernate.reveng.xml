@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="library"/>
+  <table-filter match-name="mcainbox"/>
+  <table-filter match-name="btechpatron"/>
+  <table-filter match-name="biotechbookreg"/>
+  <table-filter match-name="admin"/>
+  <table-filter match-name="mbareserv"/>
+  <table-filter match-name="mbatrans"/>
+  <table-filter match-name="mcabookreg"/>
+  <table-filter match-name="department"/>
+  <table-filter match-name="settings"/>
+  <table-filter match-name="mbapatron"/>
+  <table-filter match-name="mcabookavail"/>
+  <table-filter match-name="transactiontab"/>
+  <table-filter match-name="mcareserv"/>
+  <table-filter match-name="btechbookreg"/>
+  <table-filter match-name="mcbissue"/>
+  <table-filter match-name="mbainbox"/>
+  <table-filter match-name="mbaissue"/>
+  <table-filter match-name="mcatrans"/>
+  <table-filter match-name="mcaissue"/>
+  <table-filter match-name="mcafine"/>
+  <table-filter match-name="mbabookreg"/>
+  <table-filter match-name="mcapatron"/>
+  <table-filter match-name="biotechpatron"/>
+</hibernate-reverse-engineering>

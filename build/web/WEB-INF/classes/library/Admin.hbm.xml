@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 3, 2013 11:41:33 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="library.Admin" table="admin" catalog="library">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="adminid" type="string">
+            <column name="adminid" length="25" />
+        </property>
+        <property name="adminpass" type="string">
+            <column name="adminpass" length="30" />
+        </property>
+    </class>
+</hibernate-mapping>

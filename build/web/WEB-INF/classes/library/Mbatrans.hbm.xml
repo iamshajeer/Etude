@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 3, 2013 11:41:33 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="library.Mbatrans" table="mbatrans" catalog="library">
+        <id name="tsid" type="java.lang.Long">
+            <column name="tsid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="mbaissue" class="library.Mbaissue" fetch="select">
+            <column name="transid" />
+        </many-to-one>
+        <property name="status" type="java.lang.Boolean">
+            <column name="status" />
+        </property>
+    </class>
+</hibernate-mapping>

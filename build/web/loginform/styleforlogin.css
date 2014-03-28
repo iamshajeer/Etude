@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.text{
+    width:250px;
+    height:3ex;
+}
+#logintable{
+    margin-top:120px;
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+}
+.submit{	
+    width:122px;
+    border:none;
+    background-color:#030;
+    height:37px;
+    cursor:pointer;
+    color:#fff
+}
+.submit:hover{background-color:#095500;
+}

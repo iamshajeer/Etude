@@ -1,0 +1,35 @@
+/* 
+    Document   : settingstyle
+    Created on : Apr 16, 2013, 12:01:47 PM
+    Author     : Shajeer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.text{
+    width:260px;
+        height:25px;
+}
+.outertable td{
+    font-weight: bold;
+}
+.outertable{
+    
+    box-shadow: 2px 2px 7px #030;
+}
+.submit{	
+          width:122px;
+          border:none;
+          background-color:#030;
+          height:30px;
+          cursor:pointer;
+          color:#fff
+}
+
+.submit:hover{
+    background-color:#095500;
+
+}
+h2{
+    text-shadow: 2px 3px 10px #000;
+}

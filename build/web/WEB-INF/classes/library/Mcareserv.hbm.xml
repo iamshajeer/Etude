@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 3, 2013 11:41:33 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="library.Mcareserv" table="mcareserv" catalog="library">
+        <id name="resid" type="java.lang.Integer">
+            <column name="resid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="mcabookreg" class="library.Mcabookreg" fetch="select">
+            <column name="bookid" length="15" />
+        </many-to-one>
+        <property name="resdate" type="string">
+            <column name="resdate" length="20" />
+        </property>
+        <property name="uid" type="string">
+            <column name="uid" length="15" />
+        </property>
+    </class>
+</hibernate-mapping>

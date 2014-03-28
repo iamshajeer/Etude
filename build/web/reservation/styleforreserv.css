@@ -1,0 +1,83 @@
+/* 
+    Document   : styleforreserv
+    Created on : May 26, 2013, 11:30:25 PM
+    Author     : Shajeer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.outertable{
+    margin-top:-30px;
+    border-color:#030;
+    background-color:#FFF; 
+    margin-left:0px;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    border:1px
+        border-style:ridge;
+}
+.innertable{
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+}
+.innertable th{
+    text-shadow:2px 2px 5px #030;
+}
+.submit{		width:122px;
+          border:none;
+          background-color:#030;
+          height:37px;
+          cursor:pointer;
+          color:#fff
+}
+.submit:hover{
+    background-color:#095500; 
+}
+.text{
+
+    width:250px;
+    height:3ex;
+}
+#search{
+    margin-left: -35px;
+    height: 28px;
+    width: 30px;
+    background-color: #94af02;
+    border: 0px;
+    background-image: url(../images/look1.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+#search:active{
+    background-color: #093e07;
+}
+#se{
+    width: 215px;
+    padding-right: 35px;
+}
+#col1{
+    background-color: wheat;
+}
+#col2{
+    background-color: #fff;
+}
+#reservtab th{
+    background-color:#030   ; 
+    color:#fff ;
+    text-shadow: 2px 5px 15px #000;
+}
+#reservtab{
+    margin-top: 40px;
+    border-color: #94af02;
+    width: 500px;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;    
+}

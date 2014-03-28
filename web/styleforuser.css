@@ -1,0 +1,49 @@
+
+#outer{
+    border:hidden;
+       border-color: #94af02;
+
+}
+#outer th{
+   font-family: Georgia, "Times New Roman", Times, serif;    
+   background-color:#030   ; 
+    color:#fff ;
+   
+    text-shadow: 2px 5px 15px #000;
+}
+
+#col1{
+    background-color: wheat ;
+    cursor: default;
+}
+#col2{background-color: #fff;
+    cursor: default;
+}
+.submit{		width:122px;
+          border:none;
+          background-color:#030;
+          height:30px;
+          cursor:pointer;
+          color:#fff
+}
+
+.submit:hover{
+    background-color:#095500;
+
+}
+#returnbt{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#renewbt{
+    margin-left: 175px;
+    margin-top: -30px;
+    
+}
+#table{
+    margin-top: 40px;
+}
+.renewalday{
+    color:#0000cc;
+}
+.renewalover{color:red;}

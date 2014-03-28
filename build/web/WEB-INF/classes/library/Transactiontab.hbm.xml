@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 3, 2013 11:41:33 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="library.Transactiontab" table="transactiontab" catalog="library">
+        <id name="trid" type="string">
+            <column name="trid" length="15" />
+            <generator class="assigned" />
+        </id>
+        <property name="bookid" type="string">
+            <column name="bookid" length="15" />
+        </property>
+        <property name="doi" type="string">
+            <column name="doi" length="20" />
+        </property>
+        <property name="dor" type="string">
+            <column name="dor" length="20" />
+        </property>
+        <property name="uid" type="string">
+            <column name="uid" length="15" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,95 @@
+/* 
+    Document   : styleformsgbox
+    Created on : Apr 12, 2013, 7:09:55 PM
+    Author     : Shajeer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#subject{
+    width:452px;
+    height: 25px;
+}
+.submit{		
+    width:122px;
+    border:none;
+    background-color:#030;
+    height:30px;
+    cursor:pointer;
+    color:#fff
+}
+.submit:hover{
+    background-color:#095500;
+
+}
+#msg{ width:450px;
+      height: 250px;}
+
+#unread{
+    font-weight: bolder;
+    cursor: pointer;  
+}
+#read{ 
+    cursor: pointer;
+    font-weight: normal;
+}
+#inboxtab{
+    margin-top: 40px;
+    border-color: #94af02;
+    width: 500px;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;    
+}
+#inboxtab th{
+    background-color:#030   ; 
+    color:#fff ;
+    text-shadow: 2px 5px 15px #000;
+}
+#col1{
+    background-color: wheat;
+}
+#col2{
+    background-color: #fff;
+}
+#submitinbx{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#inboxtab td{
+    cursor: pointer;
+}
+
+td:hover {
+    color: #039;
+    font-family:inherit;
+    text-decoration:  wavy;
+    text-shadow: 6px 5px 15px #030;
+}
+#msgtab #subject:hover,textArea:hover{
+    background-color:#daffc1;
+}
+
+#popup{
+    background-image: url(../images/popup3.png);
+    color:#000;
+    height: 200px;
+    width: 380px;
+    position: absolute;
+    display: none;
+    overflow:scroll;
+}
+#popup::-webkit-scrollbar{
+width: 5px;
+height: 5px;
+background:none;
+}
+
+#maintabtd:hover #popup{
+    display:block;        
+    }
+td:hover #popup table td:hover{
+    color:#000;
+    text-shadow: 6px 4px 5px #fff;
+  }
+  #msgth{width: 9px}
+ 

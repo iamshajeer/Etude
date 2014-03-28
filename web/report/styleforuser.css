@@ -1,0 +1,112 @@
+body{
+    background: #94af02 url(images/bg.jpg) top repeat-x;
+    color: #464646;
+    margin: 0 auto;
+    padding: 0px;
+}
+#reportbody{
+    background: #94af02 url(../images/bg.jpg) top repeat-x;
+}
+#outer{
+    border:hidden;
+    border-color:#999;
+
+}
+#outer th{
+    font-family: sans;
+    background-color: #fff;
+    text-shadow: 2px 5px 15px #000;
+}
+
+#col1{
+    background-color: wheat;
+}
+#col2{background-color: #fff;
+}
+.submit{		width:122px;
+          border:none;
+          background-color:#030;
+          height:30px;
+          cursor:pointer;
+          color:#fff
+}
+
+.submit:hover{
+    background-color:#095500;
+
+}
+#returnbt{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#renewbt{
+    margin-left: 175px;
+    margin-top: -30px;
+
+}
+#footer {
+    height: 40px;
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background: url(../images/footer.jpg) repeat-x top;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+}
+#reporttab{
+    
+    margin-top: 40px;
+    border-color: #94af02;
+    border-style:groove;
+
+}
+#reporttab th{
+    background-color:#030   ;
+    color: #fff;
+}
+#repheader{
+    margin-top: 150px;
+    font-size: 28px;
+    font-family: Georgia, "Times New Roman", Times, serif; 
+}
+select{
+    width:175px;
+    height:30px;    
+    color: #030; 
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    background-color: #ccffcc;
+}
+#selction{
+    padding: 0px;
+    margin-top: 130px;
+    margin-left: 125px;
+}
+#bookavilreport{
+    margin-top: 160px;
+ font-family: Georgia, "Times New Roman", Times, serif;    
+}
+#bookavilreport th{
+    background-color:#030   ; 
+    color:#fff ;
+}
+#stocktab{
+    margin-top: 160px;
+}
+#stocktab th{
+   background-color:#030   ;
+    color: #fff;
+    
+}
+#nearrenew{
+    color:red;
+}

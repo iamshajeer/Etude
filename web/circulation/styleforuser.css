@@ -1,0 +1,50 @@
+
+#outer{
+    border:hidden;
+    border-color:#999;
+     border-color: #94af02;
+
+}
+#outer th{
+   font-family: Georgia, "Times New Roman", Times, serif;    
+   background-color:#030   ;
+    color:#fff ;
+   
+    text-shadow: 2px 5px 15px #000;
+}
+
+#col1{
+    background-color: wheat;
+   color: #000;
+}
+#col2{background-color: #fff;
+}
+.submit{		width:122px;
+          border:none;
+          background-color:#030;
+          height:30px;
+          cursor:pointer;
+          color:#fff
+}
+
+.submit:hover{
+    background-color:#095500;
+
+}
+#returnbt{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#renewbt{
+    margin-left: 175px;
+    margin-top: -30px;
+    
+    
+}
+#textsearch{
+    font-family: Georgia,"Times New Roman", Times, serif;
+}
+.checkbox{
+    color: #0000cc;
+    background: #0000cc;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 3, 2013 11:41:33 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="library.Department" table="department" catalog="library">
+        <id name="dptid" type="string">
+            <column name="dptid" length="15" />
+            <generator class="assigned" />
+        </id>
+        <property name="dptname" type="string">
+            <column name="dptname" length="30" />
+        </property>
+        <property name="lname" type="string">
+            <column name="lname" length="35" />
+        </property>
+        <property name="lid" type="string">
+            <column name="lid" length="15" />
+        </property>
+        <property name="lpassword" type="string">
+            <column name="lpassword" length="35" />
+        </property>
+        <property name="lnumber" type="java.lang.Long">
+            <column name="lnumber" />
+        </property>
+        <property name="laddress" type="string">
+            <column name="laddress" length="150" />
+        </property>
+        <property name="lmail" type="string">
+            <column name="lmail" length="100" />
+        </property>
+        <property name="lplace" type="string">
+            <column name="lplace" length="50" />
+        </property>
+        <property name="lpin" type="java.lang.Integer">
+            <column name="lpin" />
+        </property>
+    </class>
+</hibernate-mapping>
